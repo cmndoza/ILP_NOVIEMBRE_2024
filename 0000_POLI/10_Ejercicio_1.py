@@ -14,7 +14,11 @@ float (promedio_curso)
 promedio_curso = statistics.mean([calificacion_parcial_1,calificacion_parcial_2,calificacion_parcial_3])
 
 print("EL PROMEDIO DEL CURSO ES =", promedio_curso)
-if promedio_curso >= 6:
+if promedio_curso > 6 and promedio_curso <= 10:
     print("EL ESTADO DEL CURSO ES: APROBADO")
-else:
+elif promedio_curso == 6:
+    print("APENAS APROBADO")
+elif promedio_curso < 6 and promedio_curso >= 0:
     print("EL ESTADO DEL CURSO ES: REPROBADO")
+else:
+    print("VALOR DE PROMEDIO ILÓGICO")
