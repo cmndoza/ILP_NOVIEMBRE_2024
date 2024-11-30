@@ -55,7 +55,7 @@ def Saludo_Bienvenida ():
 
 respuesta = "si"
 
-while (respuesta == "si" or respuesta == "SI" or respuesta == "S" or respuesta == "s"):
+while (respuesta == "si" or respuesta == "SI" or respuesta == "S" or respuesta == "s" or respuesta == "y" or respuesta == "Y"):
     #Para mostrar el menú se debe invocar la función:
     os.system('cls')
     Mostrar_Menu ()
