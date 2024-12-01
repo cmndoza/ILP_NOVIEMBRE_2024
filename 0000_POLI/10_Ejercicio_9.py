@@ -71,7 +71,7 @@ while (respuesta == "si" or respuesta == "SI" or respuesta == "S" or respuesta =
     elif (opcion == "d" or opcion == "D" or opcion == "d)" or opcion == "D)"):
         Saludo_Bienvenida()
     else:
-        print("Opcioón on válida")
+        print("Opción no válida")
 
     respuesta = input("¿Quieres continuar?: ")
 
